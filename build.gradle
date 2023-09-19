@@ -16,7 +16,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: 'org.spongepowered.mixin'
 
-version = '1.0'
+version = '1.4.2-40.2.9'
 group = 'com.yourname.majobroom' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'majobroom'
 
@@ -70,7 +70,7 @@ repositories {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.18.2-40.1.20'
+    minecraft 'net.minecraftforge:forge:1.18.2-40.2.9'
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }
 mixin {
