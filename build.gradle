@@ -16,7 +16,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: 'org.spongepowered.mixin'
 
-version = '1.4.2-40.2.9'
+version = '1.18.2-1.4.3-Unofficial'
 group = 'com.yourname.majobroom' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'majobroom'
 
